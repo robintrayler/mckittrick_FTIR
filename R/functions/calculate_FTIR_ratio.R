@@ -74,9 +74,6 @@ calculate_FTIR_ratio <- function(data) {
     WAMPI      = amide_I  / B_605,
     PCI        = (B_605 + B_565) / V_590, 
     LPI        = (B_2854 + B_2925) / B_605,
-    API        = B_1545 / B_605,
-    BPI        = B_1415 / B_605,
     catalog_number = unique(data$catalog_number))
-    
   return(results)
 }

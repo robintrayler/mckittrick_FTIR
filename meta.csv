@@ -1,0 +1,307 @@
+catalog_number,museum,UCIAMS_number,taxon,genus,species,locality,ucmp_locality,side,element,weathering_score,collagen_present,data_type,batch,publication
+154372,UCMP,219233,Gopherus,Gopherus,NA,McKittrick,NA,NA,NA,0,TRUE,training,0,NA
+154411,UCMP,219234,Gopherus,Gopherus,NA,McKittrick,NA,NA,NA,0,TRUE,training,0,NA
+271240,UCMP,NA,Camelops,Camelops,NA,McKittrick,NA,NA,NA,0,FALSE,training,0,NA
+271213,UCMP,264797,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271214,UCMP,264798,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271215,UCMP,264799,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271216,UCMP,264800,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271217,UCMP,264801,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271219,UCMP,264802,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271220,UCMP,265002,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271221,UCMP,265003,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271222,UCMP,264807,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271223,UCMP,265004,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+271224,UCMP,264809,Aenocyon,Aenocyon,dirus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+158263,UCMP,264043,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+158276,UCMP,268355,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+158281,UCMP,NA,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,0,FALSE,training,0,NA
+271231,UCMP,264816,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+259507,UCMP,220369,Canis,Canis,latrans,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+259508,UCMP,220370,Canis,Canis,latrans,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+259509,UCMP,220371,Canis,Canis,latrans,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148875,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148877,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148878,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148880,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148881,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148884,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148885,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148855,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148856,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+148859,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,NA,NA,NA,0,TRUE,training,0,NA
+153254,UCMP,NA,Bison,Bison,NA,McKittrick,NA,NA,NA,1,FALSE,training,0,NA
+153246,UCMP,NA,Equus conversidens,Equus,conversidens,McKittrick,NA,NA,NA,1,FALSE,training,0,NA
+153247,UCMP,NA,Equus conversidens,Equus,conversidens,McKittrick,NA,NA,NA,1,FALSE,training,0,NA
+271246,UCMP,NA,Odocoileus,Odocoileus,NA,McKittrick,NA,NA,NA,1,FALSE,training,0,NA
+271247,UCMP,NA,Odocoileus,Odocoileus,NA,McKittrick,NA,NA,NA,1,FALSE,training,0,NA
+271245,UCMP,NA,Antilocapridae,NA,NA,McKittrick,NA,NA,NA,1,FALSE,training,0,NA
+158271,UCMP,264044,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+158277,UCMP,264045,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+158279,UCMP,264046,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+271225,UCMP,264810,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+271226,UCMP,265005,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+271232,UCMP,264817,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+148876,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+148879,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+148860,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+148873,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+148874,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,NA,NA,NA,1,TRUE,training,0,NA
+153253,UCMP,NA,Bison,Bison,NA,McKittrick,NA,NA,NA,2,FALSE,training,0,NA
+153256,UCMP,NA,Bison,Bison,NA,McKittrick,NA,NA,NA,2,FALSE,training,0,NA
+153250,UCMP,NA,Equus conversidens,Equus,conversidens,McKittrick,NA,NA,NA,2,FALSE,training,0,NA
+271242,UCMP,261772,Euceratherium,Euceratherium,NA,McKittrick,NA,NA,NA,2,TRUE,training,0,NA
+271243,UCMP,NA,Euceratherium,Euceratherium,NA,McKittrick,NA,NA,NA,2,FALSE,training,0,NA
+271228,UCMP,NA,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,2,FALSE,training,0,NA
+271234,UCMP,NA,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,2,FALSE,training,0,NA
+259499,UCMP,220366,Smilodon,Smilodon,NA,Rancho La Brea,NA,NA,NA,2,TRUE,training,0,NA
+259500,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA
+259501,UCMP,220368,Smilodon,Smilodon,NA,Rancho La Brea,NA,NA,NA,2,TRUE,training,0,NA
+153252,UCMP,NA,Bison,Bison,NA,McKittrick,NA,NA,NA,3,FALSE,training,0,NA
+27118,UCMP,NA,Euceratherium,Euceratherium,NA,McKittrick,NA,NA,NA,3,FALSE,training,0,NA
+271227,UCMP,264812,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,3,TRUE,training,0,NA
+271229,UCMP,NA,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,3,FALSE,training,0,NA
+271230,UCMP,265006,Camelops,Camelops,NA,Rancho La Brea,NA,NA,NA,3,TRUE,training,0,NA
+271244,UCMP,261773,Artodactyla,NA,NA,McKittrick,NA,NA,NA,4,TRUE,training,0,NA
+33120,UCMP,NA,Mammut,Mammut,NA,McKittrick,NA,NA,NA,4,FALSE,training,0,NA
+149255,UCMP,NA,Teratornis merriami,Teratornis,merriami,McKittrick,NA,NA,NA,2,TRUE,training,0,[@fox-dobbs2006]
+149256,UCMP,NA,Teratornis merriami,Teratornis,merriami,McKittrick,NA,NA,NA,2,TRUE,training,0,[@fox-dobbs2006]
+149257,UCMP,NA,Teratornis merriami,Teratornis,merriami,McKittrick,NA,NA,NA,2,TRUE,training,0,[@fox-dobbs2006]
+153257,UCMP,NA,Cervus elaphus,Cervus,elaphus,McKittrick,NA,NA,NA,1,TRUE,validation,0,[@fox-dobbs2014]
+259515,UCMP,NA,NA,Equus,occidentalis,McKittrick,NA,NA,NA,2,NA,testing,4,NA
+259516,UCMP,220373,Equus,Equus,NA,Rancho La Brea,NA,NA,NA,2,TRUE,training,0,NA
+259517,UCMP,NA,Equus,Equus,NA,Rancho La Brea,NA,NA,NA,2,FALSE,training,0,NA
+271241,UCMP,NA,Bison,Bison,NA,McKittrick,NA,NA,NA,3,FALSE,training,0,NA
+31035,UCMP,NA,Odocoileus,Odocoileus,NA,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+149245,UCMP,NA,NA,Arctodus,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+153238,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+153251,UCMP,NA,Camelops,Camelops,NA,McKittrick,1370,left,NA,NA,NA,testing,1,NA
+212877,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+212880,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+212883,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+212886,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+212887,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+212888,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+212891,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+233859,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+233862,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+233923,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+233952,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+233971,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+233999,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+234164,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+234165,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+234166,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+234502,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+234503,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+234504,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+234604,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+234637,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+234638,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+234640,UCMP,NA,NA,Camelops,hesternus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+234724,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+234734,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+234823,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+234834,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+234983,UCMP,NA,NA,Camelops,hesternus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+234991,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+235013,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+235014,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+235033,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235047,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+235108,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,testing,1,NA
+235109,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,testing,1,NA
+235110,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,testing,1,NA
+235111,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235112,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,testing,1,NA
+235113,UCMP,NA,Camelidae,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+235114,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,testing,1,NA
+235115,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235116,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235117,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235118,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235119,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235120,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235122,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235123,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+235258,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+236337,UCMP,NA,Camelidae,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+236338,UCMP,NA,Camelidae,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+236343,UCMP,NA,check if mammoth or sloth,NA,NA,McKittrick,7139,NA,femoral head,NA,NA,testing,1,NA
+236348,UCMP,NA,NA,Paramylodon,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+236389,UCMP,NA,Paramylodon,Paramylodon,NA,McKittrick,7139,NA,proximal metapodial,NA,NA,testing,1,NA
+236390,UCMP,NA,Paramylodon,Paramylodon,NA,McKittrick,7139,NA,distal frag of distal phalanx,NA,NA,testing,1,NA
+236395,UCMP,NA,NA,Paramylodon,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+236398,UCMP,NA,Paramylodon,Paramylodon,NA,McKittrick,7139,NA,tibia,NA,NA,testing,1,NA
+236400,UCMP,NA,Paramylodon,Paramylodon,NA,McKittrick,7139,NA,"distal claw, broken",NA,NA,testing,1,NA
+236964,UCMP,NA,NA,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+236969,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+237006,UCMP,NA,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,testing,1,NA
+237008,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+237011,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+237012,UCMP,NA,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,testing,1,NA
+237051,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+237052,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+237155,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+237718,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+237719,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+237720,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+237730,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+237731,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+237732,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+237779,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+237901,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237902,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237910,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237911,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237912,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237915,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237917,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237920,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237924,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237925,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237927,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237928,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237930,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237931,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237932,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+237973,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+237974,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+237977,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+238700,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+238807,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+238864,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+238865,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+239019,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+239021,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+239100,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+239101,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+239102,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+239103,UCMP,NA,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,testing,1,NA
+239104,UCMP,NA,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,testing,1,NA
+239105,UCMP,NA,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,testing,1,NA
+239106,UCMP,NA,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,testing,1,NA
+239137,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+239155,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+239508,UCMP,NA,NA,Equus,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+239568,UCMP,NA,Odocoileus,Odocoileus,hemionus,McKittrick,NA,NA,NA,NA,NA,testing,2,NA
+239775,UCMP,NA,Artiodactyla,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+239785,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+239926,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+239948,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+239961,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+239975,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,testing,1,NA
+239976,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,testing,1,NA
+240644,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+241059,UCMP,NA,Camelops,Camelops,NA,McKittrick,7139,right,mt,NA,NA,testing,1,NA
+241060,UCMP,NA,Camelops,Camelops,NA,McKittrick,7139,left,NA,NA,NA,testing,1,NA
+241158,UCMP,NA,Mammalia,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+241159,UCMP,NA,Mammalia,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+241163,UCMP,NA,NA,Camelops,hesternus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+241164,UCMP,NA,NA,Camelops,hesternus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+241165,UCMP,NA,NA,Mammut,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+241166,UCMP,NA,Proboscidea,NA,NA,McKittrick,7139,check,distal fibula,NA,NA,testing,1,NA
+246020,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+246076,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+246139,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+246143,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+246144,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+246145,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+246208,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+246223,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+246523,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+246644,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+246721,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+246828,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+246838,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+246839,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+248003,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,canine,NA,NA,testing,5,NA
+248816,UCMP,NA,NA,Canis,lupus,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+248821,UCMP,NA,NA,Canis,lupus,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+248852,UCMP,NA,NA,Canis,lupus,McKittrick,NA,NA,NA,NA,NA,testing,3,NA
+259686,UCMP,NA,Proboscidea,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+259698,UCMP,NA,Mammalia,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+259703,UCMP,NA,Mammalia,NA,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+271239,UCMP,NA,Camelops,Camelops,NA,McKittrick,7139,left,NA,NA,NA,testing,1,NA
+286436,UCMP,NA,Lepus,Lepus,NA,McKittrick,7139,left,femur,NA,NA,testing,1,NA
+287162,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,right,femur,NA,NA,testing,1,NA
+287164,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,right,femur,NA,NA,testing,1,NA
+287165,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,right,femur,NA,NA,testing,1,NA
+287166,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,right,femur,NA,NA,testing,1,NA
+287167,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,right,femur,NA,NA,testing,1,NA
+287168,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,right,femur,NA,NA,testing,1,NA
+287172,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,testing,1,NA
+287173,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,right,femur,NA,NA,testing,1,NA
+287174,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,testing,1,NA
+287174,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,testing,1,NA
+287175,UCMP,280001,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,testing,1,NA
+287190,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,testing,1,NA
+287191,UCMP,NA,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,testing,1,NA
+287400,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+287457,UCMP,NA,Paramylodon,Paramylodon,NA,McKittrick,7139,NA,broken distal phalanx,NA,NA,testing,1,NA
+297729,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,testing,4,NA
+149246,UCMP,NA,NA,Smilodon,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+212881,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,2,NA
+234600,UCMP,280004,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,validation,1,NA
+234602,UCMP,280006,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,validation,1,NA
+234605,UCMP,280005,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,validation,1,NA
+234636,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+234639,UCMP,NA,NA,Euceratherium,collinum,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+234682,UCMP,NA,NA,NA,NA,McKittrick,NA,NA,NA,NA,NA,validation,2,NA
+234683,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+234684,UCMP,280008,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,validation,1,NA
+234688,UCMP,NA,Antilocapra,Antilocapra,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+234822,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+234975,UCMP,NA,NA,NA,NA,McKittrick,NA,NA,NA,NA,NA,validation,2,NA
+234997,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+235105,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,validation,1,NA
+235107,UCMP,NA,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,validation,1,NA
+235222,UCMP,NA,Paramylodon,Paramylodon,NA,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+237005,UCMP,280016,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,validation,1,NA
+237007,UCMP,NA,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,validation,1,NA
+237009,UCMP,280011,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,validation,1,NA
+237010,UCMP,280010,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,validation,1,NA
+237013,UCMP,280013,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,validation,1,NA
+237014,UCMP,280015,Equus,Equus,NA,McKittrick,7139,right,radius,NA,NA,validation,1,NA
+237053,UCMP,NA,NA,Paramylodon,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+237085,UCMP,NA,Xenarthra,NA,NA,McKittrick,NA,NA,NA,NA,NA,validation,2,NA
+237175,UCMP,NA,Mammalia,NA,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+237723,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,2,NA
+237742,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+237766,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+237776,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+237782,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+237899,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+237907,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+237914,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+237919,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+239746,UCMP,280007,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,right,metatarsal,NA,NA,validation,1,NA
+240383,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+240554,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+240555,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+240562,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+240638,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+241070,UCMP,280014,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,validation,1,NA
+241072,UCMP,280012,Equus,Equus,NA,McKittrick,7139,left,radius,NA,NA,validation,1,NA
+241157,UCMP,NA,Mammalia,NA,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+241191,UCMP,280009,Hemiauchenia,Hemiauchenia,NA,McKittrick,7139,left,metatarsal,NA,NA,validation,1,NA
+246097,UCMP,NA,Mylodontidae,NA,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+246141,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+246142,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+246291,UCMP,NA,NA,Antilocapra,americanus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+246457,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+248812,UCMP,NA,NA,Canis,lupus,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+248827,UCMP,NA,NA,Canis,lupus,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+248855,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+248856,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,3,NA
+282633,UCMP,NA,NA,Antilocapra,americanus,McKittrick,NA,NA,NA,NA,NA,validation,2,NA
+287170,UCMP,280002,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,validation,1,NA
+287171,UCMP,280000,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,validation,1,NA
+287189,UCMP,280003,Lepus,Lepus,NA,McKittrick,1370,left,femur,NA,NA,validation,1,NA
+287265,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+287403,UCMP,NA,NA,Bison,NA,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+297728,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+297730,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+297731,UCMP,NA,NA,Aenocyon,dirus,McKittrick,NA,NA,NA,NA,NA,validation,4,NA
+299848,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,2,NA
+299849,UCMP,NA,NA,Canis,latrans,McKittrick,NA,NA,NA,NA,NA,validation,2,NA

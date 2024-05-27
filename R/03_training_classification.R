@@ -2,37 +2,19 @@
 library(tidyverse) 
 library(caret)
 library(broom)
-library(RColorBrewer)
-
-# load ggplot theme
-source('./R/plot_settings.R')
 
 # load the data ---------------------------------------------------------------
-ftir <- read_csv(file = './data/ftir_ratios.csv') |> 
+data <- read_csv(file = './results/ftir_ratios.csv') |> 
   mutate(catalog_number = as.character(catalog_number))
-
-# load taphonomy data for the known specimens
-taphonomy <- read.csv(file = './data/training_taphonomy.csv') |> 
-  mutate(catalog_number = as.character(catalog_number)) |> 
-  select(catalog_number, weathering_score)
-
-# join the taphonomy to the FTIR data
-data <- ftir |> 
-  full_join(taphonomy,
-            by = 'catalog_number') |> 
-  filter(!is.na(file_name))
-rm(ftir, 
-   taphonomy)
 
 # split into training and testing data sets -----------------------------------
 training <- data |> 
-  filter(is.finite(collagen_present)) |> 
-  # filter(locality == 'McKittrick') |> 
+  filter(data_type == 'training') |> 
   # convert to 0 or 1 probabilities for logistic regression
   mutate(collagen_present = as.numeric(collagen_present))
 
 testing <- data |> 
-  filter(is.na(collagen_present))
+  filter(data_type != 'training')
 
 # fit logistic regression models to different variables -----------------------
 predictors <- c('WAMPI', 
@@ -41,8 +23,7 @@ predictors <- c('WAMPI',
                 'weathering_score')
 
 # loop through all the predictors ---------------------------------------------
-fit <- list()
-
+fit <- list() # preallocate a list
 for(i in seq_along(predictors)) {
   fit[[i]] <- training |> 
     glm(as.formula(paste("collagen_present ~", paste(predictors[i]))), 
@@ -51,55 +32,24 @@ for(i in seq_along(predictors)) {
 # name the entries
 names(fit) = predictors
 
-# calculate probability over an even grid for each predictor ------------------
-# preallocate some storage 
-grid <- matrix(nrow = 1000, 
-               ncol = length(predictors)) |> 
-  as.data.frame()
-names(grid) <- predictors
-
-# make an evenly spaced grid 
-for(i in seq_along(predictors)) {
-  rng <- range(data[[predictors[i]]], na.rm = TRUE)
-  grid[[predictors[i]]] <- seq(rng[1], 
-                               rng[2], 
-                               length = 1000)
-}
-
-# calculate probabilities ----------------------------------------------------
-# preallocate storage 
-probability <- matrix(nrow = 1000, 
-                      ncol = length(predictors)) |> 
-  as.data.frame()
-# name the columns 
-names(probability) <- predictors
-
-# predict each probability
-for(i in seq_along(predictors)) {
-  probability[[predictors[i]]] <- predict(fit[[i]], 
-                                          newdata = grid,
-                                          type = 'response')
-}
-
-# pivot to longer and join with probabilities
-grid <- grid |> 
-  pivot_longer(cols = all_of(predictors))
-
-probability <- probability |> 
-  pivot_longer(cols = all_of(predictors),
-               values_to = 'probability') |> 
-  select(probability)
-
-logistic <- cbind(grid, 
-                  probability)
-rm(grid, probability)
-
 # calculate prediction threshold (odds-ratio of 1) ----------------------------
-threshold <- logistic |> 
-  mutate(threshold = abs(probability - 0.5)) |> 
-  group_by(name) |> 
-  slice(which.min(threshold)) |> 
-  select(name, value, probability)
+# simple function to calculate thresholds for given odds ratio
+calc_threshold <- function(fit, odds_ratio){
+  co <- coef(fit)
+  a = co[1]
+  B = co[2]
+  threshold <- ((log(odds_ratio) - a) / B)
+  return(threshold)
+}
+
+# put it all in a data frame
+threshold <- lapply(X = fit, 
+                    FUN = calc_threshold, 
+                    odds_ratio = 1) |> 
+  reduce(rbind) |> 
+  as_tibble() |> 
+  select(threshold = `(Intercept)`) |> 
+  add_column(name = predictors)
 
 # classify the training data --------------------------------------------------
 # predict the probability of the training data 
@@ -147,9 +97,13 @@ training <- training |>
   )
 
 # calculate confusion matrices ------------------------------------------------
+# calculates sensitivity, specificity
 threshold <- threshold |> 
   add_column(sensitivity = NA,
-             specificity = NA)
+             specificity = NA,
+             alpha = NA,
+             beta = NA,
+             p_value = NA)
 
 for(i in seq_along(predictors)) {
   tmp <- training |> 
@@ -165,9 +119,6 @@ for(i in seq_along(predictors)) {
   # store it in the data.frame with the threshold values
   threshold$sensitivity[threshold$name == predictors[i]] = SS$byClass[[1]]
   threshold$specificity[threshold$name == predictors[i]] = SS$byClass[[2]]
-  threshold$pos_predict[threshold$name == predictors[i]] = SS$byClass[[3]]
-  threshold$neg_predict[threshold$name == predictors[i]] = SS$byClass[[4]]
-  threshold$p_value[threshold$name == predictors[i]] = SS$overall[[7]]
   threshold$alpha[threshold$name == predictors[i]]= coef(fit[[predictors[i]]])[1]
   threshold$beta[threshold$name == predictors[i]] = coef(fit[[predictors[i]]])[2]
   threshold$p_value[threshold$name == predictors[i]] = tidy(fit[[predictors[i]]])$p.value[2]
@@ -175,24 +126,63 @@ for(i in seq_along(predictors)) {
 }
 
 # predict the testing data ----------------------------------------------------
-# WAMPI is the most predictive
+# WAMPI is the most predictive, lets just use that 
 testing <- testing |> 
-  mutate(probability = predict(fit$WAMPI, 
+  mutate(WAMPI_probability = predict(fit$WAMPI, 
                                type = 'response', 
                                newdata = testing)) |> 
-  mutate(classification = case_when(
-    probability > 0.5 ~ 1, 
-    probability < 0.5 ~ 0))
+  mutate(WAMPI_classification = case_when(
+    WAMPI_probability > 0.5 ~ 1, 
+    WAMPI_probability < 0.5 ~ 0)
+  ) |> 
+  mutate(PCI_probability = predict(fit$PCI, 
+                                     type = 'response', 
+                                     newdata = testing)) |> 
+  mutate(PCI_classification = case_when(
+    PCI_probability > 0.5 ~ 1, 
+    PCI_probability < 0.5 ~ 0)
+  )
 
 # save everything -------------------------------------------------------------
-logistic |> 
-  write_csv(file = './results/logistic_fit.csv')
-
 training |> 
-  write_csv(file = './results/training_data.csv')
+  select(file_name,
+         museum,
+         catalog_number,
+         UCIAMS_number,
+         locality,
+         taxon,
+         genus,
+         species,
+         collagen_present,
+         weathering_score,
+         WAMPI,
+         PCI,
+         LPI,
+         WAMPI_classification,
+         data_type,
+         publication) |> 
+  write_csv(file = './results/initial_training_classification.csv')
 
 testing |> 
-  write_csv(file = './results/testing_data.csv')
+  select(file_name,
+         museum,
+         catalog_number,
+         UCIAMS_number,
+         locality,
+         taxon,
+         genus,
+         species,
+         collagen_present,
+         weathering_score,
+         WAMPI,
+         PCI,
+         LPI,
+         WAMPI_classification,
+         data_type,
+         publication) |> 
+  write_csv(file = './results/initial_testing_classification.csv')
 
 threshold |> 
-  write_csv(file = './results/logistic_threshold.csv')
+  write_csv(file = './results/initial_logistic_threshold.csv')
+
+rm(list = ls())

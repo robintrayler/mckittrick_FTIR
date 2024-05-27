@@ -15,20 +15,17 @@ spectra <- list.files(path = './data/spectra/',
            full.names = TRUE) |>
   map(process_spectra) |>
   reduce(rbind) |>
-  write_csv(file = './data/processed_spectra.csv')
-
-# cleanup
-rm(list = ls())
+  write_csv(file = './results/processed_spectra.csv')
 
 pb <- progress_bar$new(
   total = length(list.files(path = './data/tar_spectra/')))
 
 # get a list of the files and process
-spectra <- list.files(path = './data/tar_spectra/',
+tar <- list.files(path = './data/tar_spectra/',
                       full.names = TRUE) |>
   map(process_spectra) |>
   reduce(rbind) |>
-  write_csv(file = './data/processed_tar.csv')
+  write_csv(file = './results/processed_tar.csv')
 
 # cleanup
 rm(list = ls())
