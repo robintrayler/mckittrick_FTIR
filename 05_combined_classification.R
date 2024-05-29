@@ -35,7 +35,7 @@ calc_threshold <- function(fit, odds_ratio){
   return(threshold)
 }
 
-threshold <- calc_threshold(fit, c(1, 3, 19)) |> 
+threshold <- calc_threshold(fit, 1) |> 
   as_tibble() |> 
   select(threshold = value) |> 
   add_column(name = predictors)
@@ -72,3 +72,4 @@ combined <- combined |>
                beta = coef(fit)[2],
                p_value = tidy(fit)$p.value[2]) |> 
     write_csv(file = './results/combined_threshold.csv')
+  

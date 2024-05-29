@@ -11,6 +11,7 @@ theme_custom <- theme_minimal() +
         axis.ticks = element_line(lineend = "round", 
                                   color = 'black'),
         panel.grid.minor = element_blank(), 
-        panel.grid.major = element_blank()) 
+        panel.grid.major = element_blank(),
+        plot.background = element_rect(color = 'white')) 
 
 theme_set(theme_custom)

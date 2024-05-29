@@ -6,7 +6,7 @@ source('./R/functions/normalize_height.R')
 source('./R/plot_settings.R')
 
 # load the data ---------------------------------------------------------------
-data <- read_csv('./data/processed_spectra.csv') |> 
+data <- read_csv('./results/processed_spectra.csv') |> 
   # pick two samples, one with high WAMPI and one with low
   filter(catalog_number %in% c('259499', '153250')) |> 
   # fix the catalog numbers
@@ -20,11 +20,11 @@ data <- read_csv('./data/processed_spectra.csv') |>
                           catalog_number == '153250' ~ 2))
 
 # load the McKittrick tar spectrum
-tar <- read_csv(file = './data/processed_tar.csv') |> 
+tar <- read_csv(file = './results/processed_tar.csv') |> 
   mutate(collagen_present = 'McKittrick tar') |> 
   mutate(rank = 1)
 
-# orginize 
+# organize 
 data <- data |> 
   full_join(tar) |> 
   mutate(collagen_present = factor(collagen_present, 
@@ -77,7 +77,8 @@ full_plot <- data |>
     axis.text.y = element_blank(),
     axis.ticks.y = element_blank(),
     legend.title = element_blank(),
-    legend.position = c(0.85, 0.8)) + 
+    legend.position = c(0.85, 0.8),
+    plot.background = element_rect(color = 'white')) + 
   xlab(expression('wavenumber'~('cm'^-1))) +
   ylab('absorbance') + 
   scale_fill_manual(values = alpha(colors, 0.5),
@@ -164,7 +165,8 @@ lipid_plot <- lipids |>
         axis.ticks.y = element_blank(),
         panel.border = element_rect(color = "#E41A1C",
                                     fill = NA),
-        axis.ticks = element_line(color = "#E41A1C")) +
+        axis.ticks = element_line(color = "#E41A1C"),
+        plot.background = element_rect(color = 'white')) +
   ylab('absorbance') + 
   xlab(expression('wavenumber'~('cm'^-1)))
 
@@ -217,7 +219,8 @@ phosphate_plot <- amide |>
         panel.border = element_rect(color = "#4DAF4A",
                                     size = 1,
                                     fill = NA),
-        axis.ticks = element_line(color = "#4DAF4A")) + 
+        axis.ticks = element_line(color = "#4DAF4A"),
+        plot.background = element_rect(color = 'white')) + 
   ylab('absorbance') + 
   xlab(expression('wavenumber'~('cm'^-1)))
 
@@ -268,13 +271,21 @@ amide_plot <- amide |>
         axis.ticks.y = element_blank(),
         panel.border = element_rect(color = "#80B1D3",
                                     fill = NA),
-        axis.ticks = element_line(color = "#80B1D3")) + 
+        axis.ticks = element_line(color = "#80B1D3"),
+        plot.background = element_rect(color = 'white')) + 
   ylab('absorbance') + 
   xlab(expression('wavenumber'~('cm'^-1)))
 
 
+full_plot <- plot_grid(full_plot, 
+                       labels = 'A', 
+                       label_x = 0.05, 
+                       label_y = 0.95)
 
-bottom <- plot_grid(phosphate_plot, amide_plot, lipid_plot, nrow = 1)
+bottom <- plot_grid(phosphate_plot, amide_plot, lipid_plot, nrow = 1,
+                    labels = c('B','C', 'D'),
+                    label_x = c(0.15, 0.15, 0.15),
+                    label_y = c(0.95, 0.95, 0.95))
 
 pdf('./figures/spectra.pdf',
     width = 7.5, 

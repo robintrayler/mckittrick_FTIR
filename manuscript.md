@@ -1,14 +1,14 @@
 ---
 title: "Rapid, Effective Screening of Tar Seep Fossils for Radiocarbon and Stable Isotope Analysis"
 author:
-  - ^1^Robin B. Trayler
+  - ^1,\*^Robin B. Trayler
   - ^1^Lauren E. Lopes
   - ^2^Patrica A. Holroyd
   - ^1^Sora L. Kim
   - ^3^John R. Southon 
 
 mainfont: "Helvetica"
-fontsize: 12pt
+fontsize: 10pt
 geometry: margin=1.0in
 bibliography: ./bibtex.bib
 csl: ./quaternary-geochronology.csl
@@ -23,7 +23,7 @@ header-includes:
     - \doublespacing
 ---
 
-<!-- Affiliations -->  
+<!-- Affiliations -->
 
 > ^1^Department of Life and Environmental Sciences, University of California, Merced, CA
 > 
@@ -57,11 +57,13 @@ In this study we investigate potential screening methods to identify tar impregn
 
 The McKittrick tar seeps are located along the eastern edge of the Temblor Range in the Southern San Joaquin Valley of California, just outside the town of McKittrick. Here, faulting allows oil to migrate from the underlying shale through porous sandstones of the Etchegoin and Tulare formations to form layers of asphaltum in a NW-SE trending brea belt.  The faunas appear to span from the late Pleistocene into the Holocene and the small number of radiocarbon dates for the locality support a late Pleistocene age for the majority of the fossils [@france2008; @fox-dobbs2014].
 
-Specimens used in the current study are from collections made by University of California personnel and by Charles Sternberg for both the University of California and California Institute of Technology which primarily took place from 1921-1927 in several different pits.[@merriam1921; @stock1928; @schultz1938; @sternberg1932] As reported by @sternberg1932, fossils from McKittrick were cleaned using kerosene on site, which removed most surface tar.  Based on direct examination of the collections, plaster was also used in joining broken bones, and there is no indication that animal hide glues were used in preparation.
+Specimens used in the current study are from collections made by University of California personnel and by Charles Sternberg for both the University of California and California Institute of Technology which primarily took place from 1921-1927 in several different pits [@merriam1921; @stock1928; @schultz1938; @sternberg1932]. As reported by @sternberg1932, fossils from McKittrick were cleaned using kerosene on site, which removed most surface tar.  Based on direct examination of the collections, plaster was also used in joining broken bones, and there is no indication that animal hide glues were used in preparation.
 
 ### Rancho La Brea
 
-The Rancho La Brea tar seeps occur in the northern part of the Los Angeles Basin, south of the Santa Monica Mountains, in urban Los Angeles that has produced a diverse fauna spanning the late Pleistocene to Holocene (see e.g., @stock1992). The tar seeps here are known to form pools of liquid asphaltum, that act as natural traps. The fossils included in this study are from University of California excavations conducted from 1908-1912 [@merriam1911; @stoner1913] and include those with radiocarbon dates reported in @okeefe2009 and stable isotope analysis from @fox-dobbs2006.
+The Rancho La Brea tar seeps occur in the northern part of the Los Angeles Basin, south of the Santa Monica Mountains, in urban Los Angeles that has produced a diverse fauna spanning the late Pleistocene to Holocene (see @stock1992). The tar seeps form pools of liquid asphaltum, that act as natural traps. The fossils included in this study are from University of California excavations conducted from 1908-1912 [@merriam1911; @stoner1913] and include those with radiocarbon dates reported in @okeefe2009 and stable isotope analysis from @fox-dobbs2006.
+
+==P. Holroyd will expand this==
 
 ## Bone Collagen Preservation and Isolation {#sec:background_collagen}
 
@@ -75,11 +77,11 @@ Collagen is also susceptible to contamination from a variety of sources, includi
 
 ## Infrared Spectroscopy {#sec:background_ftir}
 
-![Representative example ATR-FTIR spectra for bone with/ without preserved collagen and McKittrick tar. Vertical dashed lines indicate band positions from @tbl:bands. Carbonate, phosphate, and amide bands are only applicable to bone spectra while the lipid bands occur in in both materials. Top panel: full spectrum for all materials. Bottom panels: zoomed view of the phosphate, amide/ carbonate, and lipid regions highlighted by colored boxes.](./figures/spectra.pdf){#fig:spectra}
+![Representative example ATR-FTIR spectra for bone with/ without preserved collagen and McKittrick tar. Vertical dashed lines indicate band positions from @tbl:bands. Carbonate, phosphate, and amide bands are only applicable to bone spectra while the lipid bands occur in in both materials. A) full spectrum for all materials. Bottom Panel: zoomed view of the B) phosphate, C) amide/ carbonate, and D) lipid regions highlighted by colored boxes in panel A.](./figures/spectra.pdf){#fig:spectra}
 
 Attenuated Total Reflectance Fourier Transform Infrared Spectroscopy (ATR-FTIR), is a minimally destructive vibrational spectroscopic technique that characterizes the molecular functional groups of a material by irradiating it with infrared light. Since molecular structure determines which infrared wavelengths are transmitted or absorbed, ATR-FTIR can be used to attribute absorbance bands to different functional groups, and semi-quantitatively determine the chemical composition of a material [@stuart1991]. 
 
-Within the context of paleontological and archaeological specimens, ATR-FTIR is often used to investigate the crystal-chemical properties of bone bioapatite and collagen, with a particular focus on diagenesis and alteration during fossilization [@roche2010; @hassan1977; @sponheimer1999; @chadefaux2009]. The absorbance band-positions of the major components of bone are know; including inorganic phosphate (PO~4~) and carbonate (CO~3~) [@sponheimer1999; @fleet2009],  and organic amides and lipids [@chadefaux2009; @liden1995; @lebon2016] (@tbl:bands; @fig:spectra). Previous work has shown that FTIR is an effective tool at identifying organic preservation in archaeological contexts [@lebon2016], but to our knowledge, there have been no prior attempts to apply the methodology to tar impregnated fossils.
+Within the context of paleontological and archaeological specimens, ATR-FTIR is often used to investigate the crystal-chemical properties of bone bioapatite and collagen, with a particular focus on diagenesis and alteration during fossilization [@roche2010; @hassan1977; @sponheimer1999; @chadefaux2009]. The absorbance band-positions of the major components of bone are know; including inorganic phosphate (PO~4~) and carbonate (CO~3~) [@sponheimer1999; @fleet2009],  and organic amides and lipids [@chadefaux2009; @liden1995; @lebon2016] (@tbl:bands; @fig:spectra). Previous work has shown that FTIR is an effective tool at identifying organic preservation in archaeological contexts [@lebon2016], but to our knowledge, there have been no prior attempts to apply the methodology to tar impregnated fossils. Infrared spectra of tar contains multiple absorbance bands that partially, or completely overlap with amide, carbonate, and lipid band positions in collagen, (@fig:spectra) and the degree to which this overprinting may interfere with accurate identification collagen contents is unclear.
 
 |  band position (cm^-1^) |    Functional Group     |
 |:-----------------------:|:-----------------------:|
@@ -112,7 +114,7 @@ Table: Number of specimens in the well preserved and poorly preserved groups for
 
 ## FTIR Indices {#sec:methods_indices}
 
-ATR-FTIR spectra were collected for all fossil specimens using a *Bruker Vertex 70 Far-Infrared Fourier Transform Infrared Spectrometer* from the Nuclear Magnetic Resonance Facility at the University of California, Merced. The spectra were collected from 400 to 4000 cm-1 over 32 scans at a spectral resolution of 4 cm^-1^. Each spectrum was background-corrected using several baseline points and slightly smoothed prior to index calculation using custom R scripts available in the supplementary material.
+ATR-FTIR spectra were collected for all fossil specimens using a *Bruker Vertex 70 Far-Infrared Fourier Transform Infrared Spectrometer* from the Nuclear Magnetic Resonance Facility at the University of California, Merced. The spectra were collected from 400 to 4000 cm-1 over 32 scans at a spectral resolution of 4 cm^-1^. Each spectrum was background-corrected using several baseline points and slightly smoothed prior to index calculation using custom R scripts modified from those of @trayler2023a, available in the supplementary material.
 
 The resulting 70 spectra were used to calculate two FTIR indices commonly used to investigate organic content and diagenesis in fossil bone. The Water-Amide-on-Phosphate-Index (WAMPI) is the ratio of the Amide-I and ν~2~PO~4~ phosphate absorbance bands ($\frac{B_{1650}}{B_{605}}$) tracks bone collagen content and higher WAMPI values should indicate better collagen preservation [@roche2010; @lebon2016; @trayler2023a]. The Phosphate-Crystalinity-Index (PCI) is the sum of the ν~2~PO~4~ and ν~4~PO~4~ phosphate absorbance band maxima, normalized by the depth of valley between these two peaks ($\frac{B_{605} + B_{565}}{V_{590}}$; [@sponheimer1999]). Since increases in bone crystallinity sharpen the two phosphate peaks and deepen the valley, higher PCI reflect greater diagenetic alteration of the bone mineral [@sponheimer1999].  Furthermore, higher PCI values can also reflect heat-induced changes to crystal order and structure, resulting from deliberate (cultural) or natural burning (wildfires), which is also expected to remove organic material [@thompson2009; @thompson2013]. 
 
@@ -120,7 +122,7 @@ We also calculated the ratio of two lipid absorbance bands [@liden1995] normaliz
 
 ## Taphonomy and Weathering Stages
 
-To assess if visual assessment of weathering was a reliable indicator of collagen preservation, we scored each specimen according to the set of weathering stages established by @behrensmeyer1978 for large mammals and using images in  @behrensmeyer2012 and @fernandez-jalvo2016  as visual referents. These stages are numbered 0 to 5, with stage 0 showing no modification and stage 5 showing significant splintering, flaking, and being easily broken. If weathering is a significant factor, we would expect specimens with less collagen to have higher weathering scores.   
+To assess if visual assessment of weathering was a reliable indicator of collagen preservation, we scored each specimen according to the set of weathering stages established by @behrensmeyer1978 for large mammals and using images in  @behrensmeyer2012 and @fernandez-jalvo2016  as visual referents. These stages are numbered 0 to 5, with stage 0 showing no modification and stage 5 showing significant splintering, flaking, and being easily broken. If weathering is a significant factor, we would expect specimens with less collagen to have higher weathering scores. ==P. Holroyd will expand this if needed==
 
 ## Statistical Methods 
 
@@ -130,17 +132,17 @@ To determine the best predictors of collagen preservation, we used the weatherin
 
 $$ln(odds) = ln(\frac{p}{1-p}) = \beta\times x + \alpha$$ {#eq:logistic}
 
-to each predictor (WAMPI, PCI, LPI, weathering score) separately, where *p* is the probability of collagen preservation (between 0 and 1), *x* is an individual predictor, and *β* and *α* are model coefficients. These logistic regression models were used to predict collagen presence for each fossil using a log-odds > 1 as a classification threshold, such that specimens where *p ≥ 0.5* were predicted to contain collagen and specimens where *p ≤ 0.5* were predicted to lack collagen. 
+to each predictor (WAMPI, PCI, LPI, weathering score) separately, where *p* is the probability of collagen preservation (between 0 and 1), *x* is an individual predictor, and *β* and *α* are model coefficients. These logistic regression models were used to predict collagen presence for each fossil using a log-odds > 1 as a classification threshold, such that specimens where *p ≥ 0.5* were predicted to contain collagen and specimens where *p < 0.5* were predicted to lack collagen.
 
-Model performance was assessed by calculating the sensitivity and specificity of each logistic regression model to determine the most useful predictor(s) for collagen presence. Sensitivity is defined as: 
+Model performance was assessed by calculating the sensitivity and specificity of each logistic regression model to determine the most useful predictor(s) for collagen presence. Sensitivity is defined as:
 
 $$sensitivity = \frac{true~positives}{true~positives + false~negatives}$$
 
-and specificity as: 
+and specificity as:
 
 $$specificity = \frac{true~negatives}{true~negatives + false~positives}$$
 
-Both sensitivity and specificity vary between 0 and 1, and in general, higher values for both indicate better model performance. A perfectly performing model that predicts zero false negatives and zero false positives would therefore have both a sensitivity and specificity of 1. However, a model that *always* predicts the presence of collagen would have a high sensitivity (~ 1), and low specificity (~ 0), with the opposite being true for a model that always predicts the absence of collagen. Therefore, an ideal model is both sensitive and specific, with both values close to one. 
+Both sensitivity and specificity vary between 0 and 1, and in general, higher values for both indicate better model performance. A perfectly performing model that predicts zero false negatives and zero false positives would therefore have both a sensitivity and specificity of 1. However, a model that *always* predicts the presence of collagen would have a high sensitivity (~ 1), and low specificity (~ 0), with the opposite being true for a model that always predicts the absence of collagen. Therefore, an ideal model is both sensitive and specific, with both values close to one.
 
 # Results & Discussion {#sec:results}
 
@@ -155,27 +157,19 @@ Both sensitivity and specificity vary between 0 and 1, and in general, higher va
 
 Table: Summary of training data logistic regression results. Model coefficients (*α*, *β*) correspond to @eq:logistic. The *Threshold* column indicates the predictor value with an odds-ratio of 1. If *β* is positive then *Predictor* values higher than the *Threshold* predict collagen presence, whereas if *β* is negative, *Predictor* values lower than the *Threshold* predict collagen presence. {#tbl:logistic}
 
-![Training data logistic regression results for each of the four possible predictors of collagen presence. The vertical dashed line is the predictor value with an odds-ratio of 1 which we used as the prediction threshold (see @tbl:logistic for details). Blue dots indicate samples with known collagen preservation and yellow dots indicate samples with known collagen absence. Points have been vertically-jittered slightly for clarity.](./figures/logistic.pdf){#fig:logistic}
+![Training data logistic regression results for each of the four possible predictors of collagen presence [A) WAMPI, B) PCI, C) LPI, D) Weathering Stage]. The vertical dashed line is the predictor value with an odds-ratio of 1 which we used as the prediction threshold (see @tbl:logistic for details). Blue dots indicate samples with known collagen preservation and yellow dots indicate samples with known collagen absence. Points have been vertically-jittered slightly for visual clarity.](./figures/logistic.pdf){#fig:logistic}
 
 The WAMPI, PCI, and weathering score logistic regression model-fits were statistically significant, and the LPI was not. The Water-Amide-on-Phosphate Index was the best performing predictor and is both highly sensitive and specific when predicting collagen presence and absence (@tbl:logistic). The WAMPI is calculated using the Amide-I band height which directly correlates to bone nitrogen and organic content [@lebon2016; @roche2010]. The Phosphate-Crystallinity Index and weathering scores are highly sensitive, but are only weakly specific. Both models have negative *β* coefficient, indicating increasing predictor values correspond to lower collagen preservation (@fig:testing). Weathering scores and PCI track taphonomic processes; macro scale weathering and microscopic apatite recrystallization, respectively. In other words, high degrees of weathering (high PCI, high weathering score), is somewhat predictive of collagen absence, but less weathering is not necessarily predictive of collagen presence. The proposed Lipid-on-Phosphate Index performed poorly and was not able to distinguish collagen presence or absence.
 
-![Plot of the PCI and WAMPI indices for the training data set. These two indices have the highest combined sensitivity and specificity. The colored ellipses contain 95% of the data in each group. The horizontal dashed line indicate the WAMPI classification threshold (@tbl:logistic).](./figures/training.pdf){#fig:testing}
-
 ## Validation {#sec:validation}
-
-![Model validation results using 67 fossils with unknown collagen preservation. The rim color of each point indicate the WAMPI based prediction of presence/absence and the fill color indicates actual collagen presence/ absence. The colored ellipses and horizontal dashed line are the same as shown in @fig:testing.](./figures/validation.pdf){#fig:validation}
 
 To validate model performance, we collected FTIR spectra on 235 other UCMP McKittrick fossils for which collagen preservation was unknown. Using these data we calculated the best performing FTIR index (WAMPI) to predict collagen presence. A WAMPI threshold of 0.43 (@tbl:logistic) predicts that 75 of 235 fossils (31%) have preserved collagen, similar to the rate we observed from random selection of McKittrick fossils (28%). From these 235 fossils we selected 67 for attempted collagen extraction; 18 were predicted to contain no collagen (WAMPI < 0.43) and 49 were predicted to have well preserved collagen (WAMPI > 0.43). Collagen was isolated at the UC Irvine Keck Carbon Cycle AMS Laboratory following the procedure of @fuller2014 for tar impregnated fossils. ==check with J. Southon on exact methods==
 
-Of the 67 fossils in the validation set, 34 produced well preserved collagen (C:N~atomic~ = 3.30±0.08, mean±1S.D); 32 from the group predicted to contain collagen, and 2 from the group predicted to contain no collagen (@fig:validation). Given that the underlying collagen preservation rate in McKittrick fossils appears to about 20-30%, a 65% chance of successfully extracting collagen is a substantial improvement. However, the validation dataset had a sensitivity of 0.94 and a specificity of 0.5. While the sensitivity of the validation data is similar to that of the training data (@tbl:logistic), the specificity is notably lower. This suggests that when applied to only McKittrick fossils, the training classification threshold (WAMPI > 0.43) has a higher false positive rate. This is likely because of imbalances in the training data set. About 80% of training samples with well preserved collagen are from Rancho La Brea, whereas 76% of the samples without preserved collagen are from McKittrick which reflects the underlying preservation rate of the two localities.
+![Plot of the PCI and WAMPI FTIR indices for the A) training and B) validation data sets. These two indices have the highest combined sensitivity and specificity. The colored ellipses on both panels contain 95% of the *training* data in each group. The horizontal dashed line indicate the initial WAMPI classification threshold of 0.43 (@tbl:logistic). A) Initial training data colored by collagen presence or absence. B) Model validation results using 67 fossils with unknown collagen preservation. The rim color of each point in B) indicates the WAMPI based prediction of presence/absence and the fill color indicates actual collagen presence/ absence. The colored ellipses and horizontal dashed line are the same as shown in the left panel.](./figures/training.pdf){#fig:testing}
+
+Of the 67 fossils in the validation set, 34 produced well preserved collagen (C:N~atomic~ = 3.30±0.08, mean±1S.D); 32 from the group predicted to contain collagen, and 2 from the group predicted to contain no collagen (@fig:testing). Given that the underlying collagen preservation rate in McKittrick fossils appears to about 20-30%, a 65% chance of successfully extracting collagen is a substantial improvement. However, the validation dataset had a sensitivity of 0.94 and a specificity of 0.5. While the sensitivity of the validation data is similar to that of the training data (@tbl:logistic), the specificity is notably lower. This suggests that when applied to only McKittrick fossils, the training classification threshold (WAMPI > 0.43) has a higher false positive rate. This is likely because of imbalances in the training data set. About 80% of training samples with well preserved collagen are from Rancho La Brea, whereas 76% of the samples without preserved collagen are from McKittrick which reflects the underlying preservation rate of the two localities.
 
 ## Combined Data and Use
-
-| Predictor |  *α*  |  *β*  | *p* value | Threshold | Sensitivity | Specificity|
-|:---------:|:-----:|:-----:|:---------:|:---------:|:-----------:|:----------:|
-|   WAMPI   | -6.94 |  13.9 |  1×10^-8^ |   0.50    |     0.87    |    0.87    |
-
-Table: Logistic regression result for the Water-Amide-on-Phosphate Index using the combined, training and validation datasets. {#tbl:final_logistic}
 
 To address the mismatch in the training data set, we combined the training and validation data sets and recalculated the WAMPI logistic regression model (@tbl:final_logistic). The sensitivity and specificity for the combined data are both 0.87, indicating a low false positive and low false negative rate. The threshold with a greater than 50% chance of collagen preservation is slightly higher (WAMPI > 0.5) than the training data threshold. Importantly, it should be noted however that our choice of an odds-ratio of 1 (> 50% preservation probability) is somewhat arbitrary, and that other thresholds could be calculated and used depending on the needs of a particular study (@fig:combined). Rearranging @eq:logistic to solve for the threshold and using the regressions coefficient in @tbl:final_logistic gives:
 
@@ -183,11 +177,18 @@ $$WAMPI~threshold = \frac{ln(odds) - \alpha}{\beta} = \frac{ln(odds) + 6.94}{13.
 
 Which can be used to calculate classification thresholds at arbitrary probabilities. For example, a higher odds-ratio of 3 (> 75% preservation probability) gives a WAMPI threshold of 0.58 and an odds-ratio of 19 (> 95% preservation probability) gives a WAMPI threshold of 0.78. These higher odds ratios come with a corresponding higher false-negative rate however, if fossil are abundant, then this trade off may be worthwhile to ensure only the best preserved specimens are chosen for further work.
 
-![Final logistic regression model using the Water-Amide-on-Phosphate index for the combined data set. The vertical dashed lines indicate the 50%, 75%, and 95% preservation probability WAMPI thresholds.](./figures/combined_logistic.pdf){#fig:combined}
+
+| Predictor |  *α*  |  *β*  | *p* value | Threshold | Sensitivity | Specificity|
+|:---------:|:-----:|:-----:|:---------:|:---------:|:-----------:|:----------:|
+|   WAMPI   | -6.94 |  13.9 |  1×10^-8^ |   0.50    |     0.87    |    0.87    |
+
+Table: Logistic regression result for the Water-Amide-on-Phosphate Index using the combined, training and validation datasets. {#tbl:final_logistic}
+
+![Plot of final reference data set (training and validation data combined). A) Plot of PCI and WAMPI FTIR indices for the combined data set. The colored ellipses contain 95% of the data in each group. The horizontal dashed lines indicate the 50%, 75%, and 95% WAMPI thresholds. B) Final logistic regression model using the Water-Amide-on-Phosphate index for the combined data set. The vertical dashed lines indicate the 50%, 75%, and 95% preservation probability WAMPI thresholds.](./figures/combined_logistic.pdf){#fig:combined}
 
 # Conclusions {#sec:conclusions}
 
-Preparing tar seep fossils for isotope analysis (δ^13^C, δ^15^N, ^14^C) is costly, time consuming and can be hampered by poor collagen preservation. Here we have presented methods and a reference data set for quickly identifying tar seep fossil with a high likelihood of collagen preservation. Completely non-destructive visual taphonomic indicators and the amount of impregnating tar are moderate to poor predictors of collagen preservation. In contrast minimally-destructive, FTIR analysis is highly sensitive and specific and a threshold of WAMPI > 0.5 is effective at identifying tar impregnated fossils with preserved collagen. Sample and data collection are both simple and rapid, and Fourier-Transform-Infrared spectrometers are available at most major research universities. Our combined reference data is robust (n = 137) and is  broadly applicable to multiple tar pits. However, the underlying data and code are freely available, such that it can be used as an initial screening tool for fossils from other tar pits [@mcdonald2015] and strengthened by the continued addition of data. 
+Preparing tar seep fossils for isotope analysis (δ^13^C, δ^15^N, ^14^C) is costly, time consuming, and can be hampered by poor collagen preservation. Here we have presented methods and a reference data set for quickly identifying tar seep fossils with a high likelihood of collagen preservation. Completely non-destructive visual taphonomic indicators and the amount of impregnating tar are moderate to poor predictors of collagen preservation. In contrast, minimal destructive FTIR analysis is highly sensitive and specific, sample and data collection are both rapid, and Fourier Transform Infrared spectrometers are available at most major research universities. TheWater-Amide-on-Phosphate index is the best predictor, and threshold of > 0.5 is effective at identifying tar impregnated fossils with preserved collagen. This threshold performs well for both Rancho La Brea and McKittrick tar pit fossils, and is likely broadly applicable to other tar pit fossils. The underlying data and code are freely available, such that it can be used as a screening tool for fossils from other tar pit deposits, and strengthened by the inclusion of additional data. Given the increasing interest in other tar pit faunas  [e.g., @solorzano2015; @lindsey2015; @seymour2015], and the associated difficulties in  excavating and curating these specimens, minimizing large-scale destructive sampling is crucial to continues research on these faunas. 
 
 # Supplementary Information {#sec:sup_info}
 
@@ -195,11 +196,11 @@ All data (infrared spectra, collagen preservation state, taxonomic details) and 
 
 # Acknowledgments
 
-We thank HyeJoo Ro and Dr. Gina Palefsky for their help with sample collection, and Dr. David Rice for his assistance with FTIR data collection, and Dr. Elizabeth Black for her advice on statistical analyses. This work was supported by NSF-EAR-2138163 (RBT and SLK) and NSF-EAR-2138164 (PAH). 
+We would like to thank HyeJoo Ro and Dr. Gina Palefsky for their help with sample collection, and Dr. David Rice for his assistance with FTIR data collection, and Dr. Elizabeth Black for her advice on statistical analyses. This work was supported by NSF-EAR-2138163 (RBT and SLK) and NSF-EAR-2138164 (PAH). 
 
 # Author Contributions
 
-RBT, SLK, and PAH conceived the project. RBT, LEL, and PAH collected the screening data. JRS extracted collagen. RBT, LEL, SLK, and PAH developed the statistical framework. RBT, LEL, and PAH wrote the manuscript with input from all authors. 
+RBT, SLK, and PAH conceived the project. RBT, LEL, and PAH collected the screening data. JRS extracted performed collagen extractions. RBT, LEL, SLK, and PAH developed the statistical framework. RBT, LEL, and PAH wrote the manuscript with input from all authors. 
 
 \pagebreak
 
