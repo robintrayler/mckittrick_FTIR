@@ -3,6 +3,7 @@ library(tidyverse)
 library(RColorBrewer)
 library(ggExtra)
 library(viridis)
+library(cowplot)
 source('./R/plot_settings.R')
 
 # load the data ---------------------------------------------------------------
@@ -101,8 +102,7 @@ for(i in seq_along(predictors)) {
                 height = 0.01,
                 size = 2,
                 stroke = 1,
-                show.legend = FALSE,
-                alpha = 0.75) + 
+                show.legend = FALSE) + 
     geom_smooth(method = "glm", 
                 aes(group = 1),
                 method.args = list(family = "binomial"), 
@@ -126,8 +126,8 @@ for(i in seq_along(predictors)) {
 training_logistic <- plot_grid(plotlist = plts,
           nrow = 1,
           labels = c('A', 'B', 'C', 'D'),
-          label_x = c(0.25, 0.25, 0.35, 0.25),
-          label_y = c(0.65, 0.65, 0.65, 0.65))
+          label_x = c(0.0, 0.0, 0.0, 0.0),
+          label_y = c(0.9, 0.9, 0.9, 0.9))
 
 training_plot <- training |> 
   mutate(preservation = case_when(collagen_present == 1 ~ 'collagen preserved',
@@ -145,7 +145,7 @@ training_plot <- training |>
                linewidth = 1,
                alpha = 0.75) +
   scale_colour_manual(values = c('no collagen' = "#FCA636FF",'collagen preserved' = "#0D0887FF"))+
-  scale_fill_manual(values =alpha(c('no collagen' = "#FCA636FF",'collagen preserved' = "#0D0887FF"), 0.5)) +
+  scale_fill_manual(values =alpha(c('no collagen' = "#FCA636FF",'collagen preserved' = "#0D0887FF"), 0.25)) +
   theme(aspect.ratio = 1,
         legend.position = c(0.7,0.85),
         legend.title = element_blank(),
@@ -170,7 +170,7 @@ validation_plot <- validation |>
              stroke = 1) +
   scale_shape_manual(values = shapes) +
   scale_color_manual(values = colors) + 
-  scale_fill_manual(values = alpha(fills, 0.5)) + 
+  scale_fill_manual(values = alpha(fills, 0.25)) + 
   stat_ellipse(data = training,
                mapping = aes(x = PCI, 
                              y = WAMPI,
@@ -191,7 +191,7 @@ validation_plot <- validation |>
              lineend = 'round')
 
 
-labels <- data.frame (WAMPI = c(0.525, 0.605, 0.805),
+labels <- data.frame(WAMPI = c(0.525, 0.605, 0.805),
                       collagen_present = c(0.39, 0.6, 0.8),
                       label = c('50%', '75%', '95%'))
 combined_logistic <- combined |>
@@ -206,8 +206,7 @@ combined_logistic <- combined |>
               height = 0.01,
               size = 2,
               stroke = 1,
-              show.legend = FALSE,
-              alpha = 0.75) + 
+              show.legend = FALSE) + 
   geom_smooth(method = "glm", 
               aes(group = 1),
               method.args = list(family = "binomial"), 

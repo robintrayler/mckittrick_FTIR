@@ -40,7 +40,7 @@ process_spectra <- function(file_path) {
     # normalize the height to the phosphate peak maximum
     normalize_height(position = 1000, width = 20) |> 
     # fit a baseline 
-    fit_baseline(background_positions = background_positions, plot = FALSE) |> 
+    fit_baseline(background_positions = background_positions, plot = TRUE) |> 
     # add the file name and catalog number
     mutate(file_name = tools::file_path_sans_ext(basename(file_path)),
            catalog_number = catalog_number)

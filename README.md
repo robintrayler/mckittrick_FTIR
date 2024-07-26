@@ -28,5 +28,6 @@ The manuscript file, `manuscript.md` can be compiled into a nicely formatted PDF
 pandoc -s manuscript.md -o manuscript.pdf --pdf-engine=xelatex --filter pandoc-crossref --citeproc --number-sections
 ```
 
+## Continued Use
 
-
+    The code assumes the FTIR spectra files are text files named with a museum prefix followed by a catalog number separated by an underscore (i.e., `UCMP_123456.txt`). The files should be tab delineated files with two columns and no headers. The first column is the wavenumber and the second column is the absorbance. If your files are in a different format they should still work but you will need to modify `./R/functions/process_spectra.R`.
