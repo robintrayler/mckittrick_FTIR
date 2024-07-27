@@ -1,21 +1,21 @@
 ﻿catalog_number,museum,UCIAMS_number,taxon,genus,species,locality,weathering_score,collagen_present,data_type,yield,N_wt_percent,C_wt_percent,C_N_atomic,publication
 27118,UCMP,NA,Euceratherium,Euceratherium,NA,McKittrick,3,FALSE,training,,,,,
 33120,UCMP,NA,Mammut,Mammut,NA,McKittrick,4,FALSE,training,,,,,
-148855,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,0,TRUE,training,,,,,
-148856,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,0,TRUE,training,,,,,
-148859,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,0,TRUE,training,,,,,
-148860,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,1,TRUE,training,,,,,
-148873,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,1,TRUE,training,,,,,
-148874,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,1,TRUE,training,,,,,
-148875,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,
-148876,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,1,TRUE,training,,,,,
-148877,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,
-148878,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,
-148879,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,1,TRUE,training,,,,,
-148880,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,
-148881,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,
-148884,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,
-148885,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,
+148855,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148856,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148859,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148860,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,1,TRUE,training,,,,,[@fox-dobbs2006]
+148873,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,1,TRUE,training,,,,,[@fox-dobbs2006]
+148874,UCMP,NA,Teratornis merriami,Teratornis,merriami,Rancho La Brea,1,TRUE,training,,,,,[@fox-dobbs2006]
+148875,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148876,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,1,TRUE,training,,,,,[@fox-dobbs2006]
+148877,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148878,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148879,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,1,TRUE,training,,,,,[@fox-dobbs2006]
+148880,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148881,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148884,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
+148885,UCMP,NA,Gymnogyps californianus,Gymnogyps,californianus,Rancho La Brea,0,TRUE,training,,,,,[@fox-dobbs2006]
 149255,UCMP,NA,Teratornis merriami,Teratornis,merriami,McKittrick,2,TRUE,training,,,,,[@fox-dobbs2006]
 149256,UCMP,NA,Teratornis merriami,Teratornis,merriami,McKittrick,2,TRUE,training,,,,,[@fox-dobbs2006]
 149257,UCMP,NA,Teratornis merriami,Teratornis,merriami,McKittrick,2,TRUE,training,,,,,[@fox-dobbs2006]
