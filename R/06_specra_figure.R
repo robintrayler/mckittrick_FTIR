@@ -92,6 +92,7 @@ full_plot <- data |>
                              yend = top), 
                inherit.aes = FALSE,
                linetype = 'dashed',
+               lineend = 'round',
                alpha = 0.75) + 
   geom_text(data = labels, 
             mapping = aes(x = wavenumber,
@@ -152,6 +153,7 @@ lipid_plot <- lipids |>
                              yend = 4.2),
                inherit.aes = FALSE,
                linetype = 'dashed',
+               lineend = 'round',
                size = 0.75,
                alpha = 0.75) +
   geom_text(data = labels,
@@ -205,6 +207,7 @@ phosphate_plot <- amide |>
                              yend = top), 
                inherit.aes = FALSE,
                linetype = 'dashed',
+               lineend = 'round',
                size = 0.75,
                alpha = 0.75) + 
   geom_text(data = labels, 
@@ -258,6 +261,7 @@ amide_plot <- amide |>
                              yend = top), 
                inherit.aes = FALSE,
                linetype = 'dashed',
+               lineend = 'round',
                size = 0.75,
                alpha = 0.75) + 
   geom_text(data = labels, 

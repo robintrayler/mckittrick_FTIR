@@ -1,19 +1,19 @@
 file_name,museum,catalog_number,UCIAMS_number,locality,taxon,genus,species,collagen_present,weathering_score,WAMPI,PCI,LPI,WAMPI_classification,data_type,publication
-UCMP_148855,UCMP,148855,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,0,0.8118702866770796,2.960274385313596,0.6280701122135024,1,training,NA
-UCMP_148856,UCMP,148856,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,0,0.8438922552577273,3.125048093959931,0.958942882754116,1,training,NA
-UCMP_148859,UCMP,148859,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,0,0.9098384787188658,3.036286458409283,0.8870136237772892,1,training,NA
-UCMP_148860,UCMP,148860,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,1,0.6976677256821526,3.282942131019693,0.6600227906322357,1,training,NA
-UCMP_148873,UCMP,148873,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,1,0.8559926009415418,2.984350872899268,0.8948598163098123,1,training,NA
-UCMP_148874,UCMP,148874,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,1,0.8148105403175423,3.043660582242377,0.5946586884705866,1,training,NA
-UCMP_148875,UCMP,148875,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.8084482012720882,2.915963907079056,0.4823378670685918,1,training,NA
-UCMP_148876,UCMP,148876,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,1,1.243701196414129,2.944222184168625,1.14826517494749,1,training,NA
-UCMP_148877,UCMP,148877,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.6351547768031499,3.011585441030781,0.5741386320834597,1,training,NA
-UCMP_148878,UCMP,148878,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.7667376401732132,2.9675181200792196,0.9069725106322354,1,training,NA
-UCMP_148879,UCMP,148879,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,1,0.44088123957577513,3.467031813107105,0.5319336659130783,1,training,NA
-UCMP_148880,UCMP,148880,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.983685553156767,2.8797533818006418,1.7894721544967511,1,training,NA
-UCMP_148881,UCMP,148881,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.8063242303850982,2.798863860343856,0.5670996115807974,1,training,NA
-UCMP_148884,UCMP,148884,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.8234683640556241,3.058736520896125,1.071748550117739,1,training,NA
-UCMP_148885,UCMP,148885,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.8407428645477312,3.0013844056670105,0.9058572818274286,1,training,NA
+UCMP_148855,UCMP,148855,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,0,0.8118702866770796,2.960274385313596,0.6280701122135024,1,training,[@fox-dobbs2006]
+UCMP_148856,UCMP,148856,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,0,0.8438922552577273,3.125048093959931,0.958942882754116,1,training,[@fox-dobbs2006]
+UCMP_148859,UCMP,148859,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,0,0.9098384787188658,3.036286458409283,0.8870136237772892,1,training,[@fox-dobbs2006]
+UCMP_148860,UCMP,148860,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,1,0.6976677256821526,3.282942131019693,0.6600227906322357,1,training,[@fox-dobbs2006]
+UCMP_148873,UCMP,148873,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,1,0.8559926009415418,2.984350872899268,0.8948598163098123,1,training,[@fox-dobbs2006]
+UCMP_148874,UCMP,148874,NA,Rancho La Brea,Teratornis merriami,Teratornis,merriami,1,1,0.8148105403175423,3.043660582242377,0.5946586884705866,1,training,[@fox-dobbs2006]
+UCMP_148875,UCMP,148875,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.8084482012720882,2.915963907079056,0.4823378670685918,1,training,[@fox-dobbs2006]
+UCMP_148876,UCMP,148876,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,1,1.243701196414129,2.944222184168625,1.14826517494749,1,training,[@fox-dobbs2006]
+UCMP_148877,UCMP,148877,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.6351547768031499,3.011585441030781,0.5741386320834597,1,training,[@fox-dobbs2006]
+UCMP_148878,UCMP,148878,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.7667376401732132,2.9675181200792196,0.9069725106322354,1,training,[@fox-dobbs2006]
+UCMP_148879,UCMP,148879,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,1,0.44088123957577513,3.467031813107105,0.5319336659130783,1,training,[@fox-dobbs2006]
+UCMP_148880,UCMP,148880,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.983685553156767,2.8797533818006418,1.7894721544967511,1,training,[@fox-dobbs2006]
+UCMP_148881,UCMP,148881,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.8063242303850982,2.798863860343856,0.5670996115807974,1,training,[@fox-dobbs2006]
+UCMP_148884,UCMP,148884,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.8234683640556241,3.058736520896125,1.071748550117739,1,training,[@fox-dobbs2006]
+UCMP_148885,UCMP,148885,NA,Rancho La Brea,Gymnogyps californianus,Gymnogyps,californianus,1,0,0.8407428645477312,3.0013844056670105,0.9058572818274286,1,training,[@fox-dobbs2006]
 UCMP_149255,UCMP,149255,NA,McKittrick,Teratornis merriami,Teratornis,merriami,1,2,0.6960613320063787,2.9830075738490125,1.6380420528684836,1,training,[@fox-dobbs2006]
 UCMP_149256,UCMP,149256,NA,McKittrick,Teratornis merriami,Teratornis,merriami,1,2,1.1742813615688967,3.0896613361181378,2.97239200890711,1,training,[@fox-dobbs2006]
 UCMP_149257,UCMP,149257,NA,McKittrick,Teratornis merriami,Teratornis,merriami,1,2,1.1121037221775012,3.1532141028130183,3.410590629565663,1,training,[@fox-dobbs2006]
