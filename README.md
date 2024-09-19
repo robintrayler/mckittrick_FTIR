@@ -1,5 +1,7 @@
 # Rapid, Effective Screening of Tar Seep Fossils for Radiocarbon and Stable Isotope Analysis
 
+![](badge.svg)
+
 ## File Structure 
 
 ```
