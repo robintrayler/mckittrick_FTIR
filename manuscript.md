@@ -199,7 +199,7 @@ Preparing tar seep fossils for isotope analysis (δ^13^C, δ^15^N, ^14^C) is cos
 
 # Code and Data Availability {#sec:sup_info}
 
-All data (infrared spectra, collagen preservation state, taxonomic details) and analysis code are available in a Zenodo Repository (DOI:10.5281/zenodo.13798959) and at [github.com/robintrayler/mckittrick_FTIR](https://github.com/robintrayler/mckittrick_FTIR). 
+All data (infrared spectra, collagen preservation state, taxonomic details) and analysis code are available in a Zenodo Repository [DOI:10.5281/zenodo.13798959](https://zenodo.org/records/13798959) and at [github.com/robintrayler/mckittrick_FTIR](https://github.com/robintrayler/mckittrick_FTIR). 
 
 # Acknowledgments
 
