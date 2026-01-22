@@ -3,7 +3,7 @@ title: "Response to Reviewers"
 author:
   - ^1,\*^Robin B. Trayler
   - ^1^Lauren E. Lopes
-  - ^2^Patrica A. Holroyd
+  - ^2^Patricia A. Holroyd
   - ^1^Sora L. Kim
   - ^3^John R. Southon 
 

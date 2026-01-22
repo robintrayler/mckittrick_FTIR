@@ -294,4 +294,3 @@ cowplot::plot_grid(combined_plot ,combined_logistic, nrow = 1,
                    label_x = c(0.175, 0.175),
                    label_y = c(0.98,0.98))
 dev.off()
-

@@ -24,5 +24,3 @@ validation_stats <-
   data.frame(
     sensitivity = SS$byClass[[1]],
     specificity = SS$byClass[[2]])
-
-

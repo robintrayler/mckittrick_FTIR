@@ -2,6 +2,9 @@
 
 ![](badge.svg)
 
+## Citation
+This repository contains the data and code for [Rapid, effective screening of tar seep fossils for radiocarbon and stable isotope analysis](https://www.sciencedirect.com/science/article/pii/S1871101424001353)(DOI:10.1016/j.quageo.2024.101631). 
+
 ## File Structure 
 
 ```
